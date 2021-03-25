@@ -1,0 +1,74 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,sans-serif;
+}
+.font-primary{
+    color: rgba(46, 192, 131, 0.555);
+    font-weight: bolder;
+}
+.title-icon{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/****************
+
+About 
+
+*****************/
+
+#about{
+    margin:60px auto;
+    max-width: 400px;
+    text-align: center;
+}
+#about img{
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom:10px ;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+       
+}
+#about .vocation {
+  color:dimgray ;
+  font-weight: bold; 
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#about .skills{
+    font-size : 14px;
+    font-weight: bold;
+    color:rgb(29, 141, 113);
+    margin-bottom: 10px;
+}
+#about .email{
+    margin-top: 14px;
+    font-size: 20px;
+}
+p{
+    font-weight: 550;
+}
+
+#about .icons{
+    margin-top: 14px;
+font-size: 30px;}
+
+/**************
+ 
+Projects 
+
+ ***********/
+#projects{
+margin: 60px auto;
+text-align: center;
+padding: 30px;
+}
+#projects .card img{
+    width: 100%;
+}
+.card{
+    text-align: left;
+    margin: 75px;
+}
