@@ -85,3 +85,13 @@ padding: 30px;
     text-align: left;
     margin: 75px;
 border-color: rgb(235, 29, 29);}
+
+@media screen and (max-width: 850px) {
+    #projects{
+        width: 100%;
+    }
+
+   .card-body{
+    padding: 1rem 3rem ; 
+   }
+}
