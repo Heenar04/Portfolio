@@ -78,7 +78,8 @@ text-align: center;
 padding: 30px;
 }
 #projects .card img{
-    width: 100%;
+    width: 300px;
+    object-fit: cover;
 }
 .card{
     text-align: left;
