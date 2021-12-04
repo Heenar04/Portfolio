@@ -1,25 +1,26 @@
-body{
-    background-color: ivory;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,sans-serif;
+body {
+  background-color: ivory;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif,
+    sans-serif;
 }
-.font-primary{
-    color: rgba(206, 72, 20, 0.555);
-    font-weight: bolder;
+.font-primary {
+  color: rgba(206, 72, 20, 0.555);
+  font-weight: bolder;
 }
-.title-icon{
-    font-size: 35px;
-    font-weight: bolder;
+.title-icon {
+  font-size: 35px;
+  font-weight: bolder;
 }
 
-.image{
-    width: 45px;
-    margin-right: 10px;
-/* border-radius: 20px; */
-} 
+.image {
+  width: 45px;
+  margin-right: 10px;
+  /* border-radius: 20px; */
+}
 
-li{
-    font-weight: bolder;
-    font-size: 18px;
+li {
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 /****************
@@ -28,70 +29,76 @@ About
 
 *****************/
 
-#about{
-    margin:60px auto;
-    max-width: 400px;
-    text-align: center;
+#about {
+  margin: 60px auto;
+  max-width: 400px;
+  text-align: center;
 }
-#about img{
-    border-radius: 50%;
-    width: 120px;
-    margin-bottom:10px ;
+#about img {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 10px;
 }
-.name{
-    font-size: 20px;
-    font-weight: bold;
-       
+.name {
+  font-size: 20px;
+  font-weight: bold;
 }
 #about .vocation {
-  color:dimgray ;
-  font-weight: bold; 
+  color: dimgray;
+  font-weight: bold;
   font-size: 20px;
   margin-bottom: 10px;
 }
-#about .skills{
-    font-size : 14px;
-    font-weight: bold;
-    color:rgb(45, 151, 212);
-    margin-bottom: 10px;
+#about .skills {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(45, 151, 212);
+  margin-bottom: 10px;
 }
-#about .email{
-    margin-top: 14px;
-    font-size: 20px;
+#about .email {
+  margin-top: 14px;
+  font-size: 20px;
 }
-p{
-    font-weight: 550;
+p {
+  font-weight: 550;
 }
 
-#about .icons{
-    margin-top: 14px;
-font-size: 30px;}
+#about .icons {
+  margin-top: 14px;
+  font-size: 30px;
+}
 
 /**************
  
 Projects 
 
  ***********/
-#projects{
-margin: 60px auto;
-text-align: center;
-padding: 30px;
+#projects {
+  margin: 60px auto;
+  text-align: center;
+  padding: 30px;
 }
-#projects .card img{
-    width: 215px;
-    object-fit: cover;
+#projects .card img {
+  width: 215px;
+  object-fit: cover;
 }
-.card{
-    text-align: left;
-    margin: 75px;
-border-color: rgb(235, 29, 29);}
+.card {
+  text-align: left;
+  margin: 75px;
+  border-color: rgb(235, 29, 29);
+}
+video.project-video {
+  width: 100%;
+  max-height: 270px;
+  background-color: black;
+}
 
 @media screen and (max-width: 850px) {
-    #projects{
-        width: 100%;
-    }
+  #projects {
+    width: 100%;
+  }
 
-   .card-body{
-    padding: 1rem 3rem ; 
-   }
+  .card-body {
+    padding: 1rem 3rem;
+  }
 }
